@@ -1,0 +1,32 @@
+knn work flow
+
+Dataset
+   │
+   ▼
+Scaling
+   │
+   ▼
+X_train_scaled + y_train
+         │
+         ▼
+knn_classifier.fit()
+         │
+         ▼
+Model Ready
+         │
+         ▼
+X_test_scaled
+         │
+         ▼
+predict()
+         │
+         ▼
+y_pred
+         │
+         ▼
+Compare with y_test
+         │
+         ▼
+Recall
+Accuracy
+Precision
